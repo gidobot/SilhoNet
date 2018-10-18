@@ -11,8 +11,5 @@ config.py
 *.ply
 *.obj
 *.tar.gz
-data/COCO
-data/YCB
-data/imagenet_weights
-data/pretrained_weights
+data
 dataset_toolbox/coco_annotations

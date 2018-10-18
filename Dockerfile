@@ -8,6 +8,7 @@ RUN pip install scikit-image
 RUN pip install transforms3d
 RUN pip install tabulate
 
+# Tensorpack used for Faster-RCNN ROI detection
 # RUN pip install --upgrade git+https://github.com/tensorpack/tensorpack.git
 # RUN cd /home/gidobot/mnt/workspace/neural_networks/tensorflow/tensorpack && \
 # 	python setup.py build && python setup.py install
