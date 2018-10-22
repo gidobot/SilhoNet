@@ -2,7 +2,7 @@
 This is the Tensorflow implementation of SilhoNet from the paper "SilhoNet: An RGB Method for 3D Object Pose Estimation and Grasp Planning", submitted to ICRA 2018. The code supports training, validation, and testing for both the silhouette prediction and 3D pose estimation stages of the network on the YCB-Video dataset.
 
 **SilhoNet: An RGB Method for 3D Object Pose Estimation and Grasp Planning**  
-[Gideon Billings](https://people.eecs.berkeley.edu/~akar/), [Matthew Johnson-Roberson](https://people.eecs.berkeley.edu/~chaene/)  
+[Gideon Billings](), [Matthew Johnson-Roberson]()  
 ICRA 2018  
 [**[arxiv]**](https://arxiv.org/abs/1809.06893)
 
