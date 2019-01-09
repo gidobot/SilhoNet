@@ -41,7 +41,7 @@ A blender script is provided, based on the Stanford shapenet renderer, for rende
 
 ```
 cd $SilhoNet_ROOT/dataset_toolbox/drop-shapenet-renderer
-	find $YCB_DIR/models -name "*.obj" -print0 | xargs -0 -n1 -P3 -I {} blender --background --python render_blender.py -- --output_folder $YCB_DIR/models/rendered {}
+find $YCB_DIR/models -name "*.obj" -print0 | xargs -0 -n1 -P3 -I {} blender --background --python render_blender.py -- --output_folder $YCB_DIR/models/rendered {}
 ```
 
 For testing SilhoNet on predicted ROIs, we provide our Faster-RCNN detections file for the keyframe image set. This file should be downloaded to the `$SilhoNet_ROOT/data` folder.  
