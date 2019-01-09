@@ -37,6 +37,13 @@ cd $SilhoNet_ROOT/dataset_toolbox
 matlab -nodesktop -nosplash -r gen_full_silhouettes
 ```
 
+A blender script is provided, based on the Stanford shapenet renderer, for rendering the model viewpoints needed as part of the network input. This script is located under the folder 'dataset_toolbox/drop-shapenet-renderer'. The Readme in this folder provides more information about running the script, but if you have blender installed on your system, the following commands will generate the rendered viewpoints expected by the network.
+
+```
+cd $SilhoNet_ROOT/dataset_toolbox/drop-shapenet-renderer
+	find $YCB_DIR/models -name "*.obj" -print0 | xargs -0 -n1 -P3 -I {} blender --background --python render_blender.py -- --output_folder $YCB_DIR/models/rendered {}
+```
+
 For testing SilhoNet on predicted ROIs, we provide our Faster-RCNN detections file for the keyframe image set. This file should be downloaded to the `$SilhoNet_ROOT/data` folder.  
 [**[Faster-RCNN detections]**](https://drive.google.com/file/d/18L1kYnZ57v8boyo9vsqhQfjpPjRkNtWM/view?usp=sharing)
 
