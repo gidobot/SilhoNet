@@ -5,7 +5,7 @@ This is the Tensorflow implementation of SilhoNet from the paper "SilhoNet: An R
 
 **SilhoNet: An RGB Method for 6D Object Pose Estimation**  
 [Gideon Billings](http://droplab.engin.umich.edu/gideon-billings), [Matthew Johnson-Roberson](http://droplab.engin.umich.edu/matthew-johnson-roberson/)  
-IEEE Robotics and Automation Letters 2019
+IEEE Robotics and Automation Letters 2019\
 [**[arxiv]**](https://arxiv.org/abs/1809.06893)
 
 ## Setup
