@@ -1,9 +1,11 @@
-# SilhoNet
-This is the Tensorflow implementation of SilhoNet from the paper "SilhoNet: An RGB Method for 3D Object Pose Estimation and Grasp Planning", submitted to ICRA 2018. The code supports training, validation, and testing for both the silhouette prediction and 3D orientation estimation stages of the network on the YCB-Video dataset.
+Note repo is in process of being updated with latest code. Paper title and citation have been updated.
 
-**SilhoNet: An RGB Method for 3D Object Pose Estimation and Grasp Planning**  
+# SilhoNet
+This is the Tensorflow implementation of SilhoNet from the paper "SilhoNet: An RGB Method for 6D Object Pose Estimation", published in IROS/RAL 2019. The code supports training, validation, and testing for both the silhouette prediction and 3D orientation estimation stages of the network on the YCB-Video dataset.
+
+**SilhoNet: An RGB Method for 6D Object Pose Estimation**  
 [Gideon Billings](http://droplab.engin.umich.edu/gideon-billings), [Matthew Johnson-Roberson](http://droplab.engin.umich.edu/matthew-johnson-roberson/)  
-ICRA 2018  
+IEEE Robotics and Automation Letters 2019
 [**[arxiv]**](https://arxiv.org/abs/1809.06893)
 
 ## Setup
@@ -178,17 +180,14 @@ tensorboard --logdir $logdir --port $PORT
 ## Citation
 If you use our code, we request you to cite the following work.
 ```
-@ARTICLE{2018arXiv180906893B,
-   author = {{Billings}, G. and {Johnson-Roberson}, M.},
-    title = "{SilhoNet: An RGB Method for 3D Object Pose Estimation and Grasp Planning}",
-  journal = {ArXiv e-prints},
-archivePrefix = "arXiv",
-   eprint = {1809.06893},
- primaryClass = "cs.CV",
- keywords = {Computer Science - Computer Vision and Pattern Recognition, Computer Science - Robotics},
-     year = 2018,
-    month = sep,
-   adsurl = {http://adsabs.harvard.edu/abs/2018arXiv180906893B},
-  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+@article{billings2019silhonet,
+  title={SilhoNet: An RGB Method for 6D Object Pose Estimation},
+  author={Billings, Gideon and Johnson-Roberson, Matthew},
+  journal={IEEE Robotics and Automation Letters},
+  volume={4},
+  number={4},
+  pages={3727--3734},
+  year={2019},
+  publisher={IEEE}
 }
 ```
